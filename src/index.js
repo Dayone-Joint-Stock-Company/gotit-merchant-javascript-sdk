@@ -13,25 +13,28 @@
 
 
 import ApiClient from './ApiClient';
-import RequestCheckMultipleBodySchemaV60 from './model/RequestCheckMultipleBodySchemaV60';
-import RequestCheckMultipleBodySchemaV60SkusInfoInner from './model/RequestCheckMultipleBodySchemaV60SkusInfoInner';
-import RequestMarkUseMultipleBodySchemaV60 from './model/RequestMarkUseMultipleBodySchemaV60';
-import RequestReservedBodySchemaV60 from './model/RequestReservedBodySchemaV60';
-import RequestUnReservedBodySchemaV60 from './model/RequestUnReservedBodySchemaV60';
-import ResponseCheckMultipleSchemaV60 from './model/ResponseCheckMultipleSchemaV60';
-import ResponseCheckMultipleSchemaV60DataInner from './model/ResponseCheckMultipleSchemaV60DataInner';
-import ResponseCheckMultipleSchemaV60DataInnerProduct from './model/ResponseCheckMultipleSchemaV60DataInnerProduct';
-import ResponseCheckMultipleSchemaV60DataInnerRedeemSku from './model/ResponseCheckMultipleSchemaV60DataInnerRedeemSku';
-import ResponseCheckMultipleSchemaV60DataInnerRedeemSkuRedeemSkuCodesInner from './model/ResponseCheckMultipleSchemaV60DataInnerRedeemSkuRedeemSkuCodesInner';
-import ResponseCheckMultipleSchemaV60DataInnerUsedStore from './model/ResponseCheckMultipleSchemaV60DataInnerUsedStore';
-import ResponseMarkUseMultipleSchemaV60 from './model/ResponseMarkUseMultipleSchemaV60';
-import ResponseMarkUseMultipleSchemaV60DataInner from './model/ResponseMarkUseMultipleSchemaV60DataInner';
-import ResponseMarkUseMultipleSchemaV60DataInnerUsedStore from './model/ResponseMarkUseMultipleSchemaV60DataInnerUsedStore';
-import ResponseReservedSchemaV60 from './model/ResponseReservedSchemaV60';
-import ResponseReservedSchemaV60DataInner from './model/ResponseReservedSchemaV60DataInner';
-import ResponseReservedSchemaV60UsedStore from './model/ResponseReservedSchemaV60UsedStore';
-import ResponseUnReservedSchemaV60 from './model/ResponseUnReservedSchemaV60';
-import MerchantApiV60Api from './api/MerchantApiV60Api';
+import RequestCheckMultipleBodySchema from './model/RequestCheckMultipleBodySchema';
+import RequestCheckMultipleBodySchemaSkusInfoInner from './model/RequestCheckMultipleBodySchemaSkusInfoInner';
+import RequestMarkUseMultipleBodySchema from './model/RequestMarkUseMultipleBodySchema';
+import RequestReservedBodySchema from './model/RequestReservedBodySchema';
+import RequestUnReservedBodySchema from './model/RequestUnReservedBodySchema';
+import ResponseCheckMultipleSchema from './model/ResponseCheckMultipleSchema';
+import ResponseCheckMultipleSchemaDataInner from './model/ResponseCheckMultipleSchemaDataInner';
+import ResponseCheckMultipleSchemaDataInnerConditions from './model/ResponseCheckMultipleSchemaDataInnerConditions';
+import ResponseCheckMultipleSchemaDataInnerRedemptions from './model/ResponseCheckMultipleSchemaDataInnerRedemptions';
+import ResponseCheckMultipleSchemaDataInnerRedemptionsRedeemSkuCodesInner from './model/ResponseCheckMultipleSchemaDataInnerRedemptionsRedeemSkuCodesInner';
+import ResponseCheckMultipleSchemaDataInnerRedemptionsUsedStore from './model/ResponseCheckMultipleSchemaDataInnerRedemptionsUsedStore';
+import ResponseMarkUseMultipleSchema from './model/ResponseMarkUseMultipleSchema';
+import ResponseMarkUseMultipleSchemaDataInner from './model/ResponseMarkUseMultipleSchemaDataInner';
+import ResponseMarkUseMultipleSchemaDataInnerConditions from './model/ResponseMarkUseMultipleSchemaDataInnerConditions';
+import ResponseMarkUseMultipleSchemaDataInnerRedemptions from './model/ResponseMarkUseMultipleSchemaDataInnerRedemptions';
+import ResponseReservedSchema from './model/ResponseReservedSchema';
+import ResponseReservedSchemaDataInner from './model/ResponseReservedSchemaDataInner';
+import ResponseReservedSchemaDataInnerRedemptions from './model/ResponseReservedSchemaDataInnerRedemptions';
+import ResponseReservedSchemaUsedStore from './model/ResponseReservedSchemaUsedStore';
+import ResponseUnReservedSchema from './model/ResponseUnReservedSchema';
+import ResponseUnReservedSchemaDataInner from './model/ResponseUnReservedSchemaDataInner';
+import GotItMerchantApi from './api/GotItMerchantApi';
 
 
 /**
@@ -73,116 +76,134 @@ export {
     ApiClient,
 
     /**
-     * The RequestCheckMultipleBodySchemaV60 model constructor.
-     * @property {module:model/RequestCheckMultipleBodySchemaV60}
+     * The RequestCheckMultipleBodySchema model constructor.
+     * @property {module:model/RequestCheckMultipleBodySchema}
      */
-    RequestCheckMultipleBodySchemaV60,
+    RequestCheckMultipleBodySchema,
 
     /**
-     * The RequestCheckMultipleBodySchemaV60SkusInfoInner model constructor.
-     * @property {module:model/RequestCheckMultipleBodySchemaV60SkusInfoInner}
+     * The RequestCheckMultipleBodySchemaSkusInfoInner model constructor.
+     * @property {module:model/RequestCheckMultipleBodySchemaSkusInfoInner}
      */
-    RequestCheckMultipleBodySchemaV60SkusInfoInner,
+    RequestCheckMultipleBodySchemaSkusInfoInner,
 
     /**
-     * The RequestMarkUseMultipleBodySchemaV60 model constructor.
-     * @property {module:model/RequestMarkUseMultipleBodySchemaV60}
+     * The RequestMarkUseMultipleBodySchema model constructor.
+     * @property {module:model/RequestMarkUseMultipleBodySchema}
      */
-    RequestMarkUseMultipleBodySchemaV60,
+    RequestMarkUseMultipleBodySchema,
 
     /**
-     * The RequestReservedBodySchemaV60 model constructor.
-     * @property {module:model/RequestReservedBodySchemaV60}
+     * The RequestReservedBodySchema model constructor.
+     * @property {module:model/RequestReservedBodySchema}
      */
-    RequestReservedBodySchemaV60,
+    RequestReservedBodySchema,
 
     /**
-     * The RequestUnReservedBodySchemaV60 model constructor.
-     * @property {module:model/RequestUnReservedBodySchemaV60}
+     * The RequestUnReservedBodySchema model constructor.
+     * @property {module:model/RequestUnReservedBodySchema}
      */
-    RequestUnReservedBodySchemaV60,
+    RequestUnReservedBodySchema,
 
     /**
-     * The ResponseCheckMultipleSchemaV60 model constructor.
-     * @property {module:model/ResponseCheckMultipleSchemaV60}
+     * The ResponseCheckMultipleSchema model constructor.
+     * @property {module:model/ResponseCheckMultipleSchema}
      */
-    ResponseCheckMultipleSchemaV60,
+    ResponseCheckMultipleSchema,
 
     /**
-     * The ResponseCheckMultipleSchemaV60DataInner model constructor.
-     * @property {module:model/ResponseCheckMultipleSchemaV60DataInner}
+     * The ResponseCheckMultipleSchemaDataInner model constructor.
+     * @property {module:model/ResponseCheckMultipleSchemaDataInner}
      */
-    ResponseCheckMultipleSchemaV60DataInner,
+    ResponseCheckMultipleSchemaDataInner,
 
     /**
-     * The ResponseCheckMultipleSchemaV60DataInnerProduct model constructor.
-     * @property {module:model/ResponseCheckMultipleSchemaV60DataInnerProduct}
+     * The ResponseCheckMultipleSchemaDataInnerConditions model constructor.
+     * @property {module:model/ResponseCheckMultipleSchemaDataInnerConditions}
      */
-    ResponseCheckMultipleSchemaV60DataInnerProduct,
+    ResponseCheckMultipleSchemaDataInnerConditions,
 
     /**
-     * The ResponseCheckMultipleSchemaV60DataInnerRedeemSku model constructor.
-     * @property {module:model/ResponseCheckMultipleSchemaV60DataInnerRedeemSku}
+     * The ResponseCheckMultipleSchemaDataInnerRedemptions model constructor.
+     * @property {module:model/ResponseCheckMultipleSchemaDataInnerRedemptions}
      */
-    ResponseCheckMultipleSchemaV60DataInnerRedeemSku,
+    ResponseCheckMultipleSchemaDataInnerRedemptions,
 
     /**
-     * The ResponseCheckMultipleSchemaV60DataInnerRedeemSkuRedeemSkuCodesInner model constructor.
-     * @property {module:model/ResponseCheckMultipleSchemaV60DataInnerRedeemSkuRedeemSkuCodesInner}
+     * The ResponseCheckMultipleSchemaDataInnerRedemptionsRedeemSkuCodesInner model constructor.
+     * @property {module:model/ResponseCheckMultipleSchemaDataInnerRedemptionsRedeemSkuCodesInner}
      */
-    ResponseCheckMultipleSchemaV60DataInnerRedeemSkuRedeemSkuCodesInner,
+    ResponseCheckMultipleSchemaDataInnerRedemptionsRedeemSkuCodesInner,
 
     /**
-     * The ResponseCheckMultipleSchemaV60DataInnerUsedStore model constructor.
-     * @property {module:model/ResponseCheckMultipleSchemaV60DataInnerUsedStore}
+     * The ResponseCheckMultipleSchemaDataInnerRedemptionsUsedStore model constructor.
+     * @property {module:model/ResponseCheckMultipleSchemaDataInnerRedemptionsUsedStore}
      */
-    ResponseCheckMultipleSchemaV60DataInnerUsedStore,
+    ResponseCheckMultipleSchemaDataInnerRedemptionsUsedStore,
 
     /**
-     * The ResponseMarkUseMultipleSchemaV60 model constructor.
-     * @property {module:model/ResponseMarkUseMultipleSchemaV60}
+     * The ResponseMarkUseMultipleSchema model constructor.
+     * @property {module:model/ResponseMarkUseMultipleSchema}
      */
-    ResponseMarkUseMultipleSchemaV60,
+    ResponseMarkUseMultipleSchema,
 
     /**
-     * The ResponseMarkUseMultipleSchemaV60DataInner model constructor.
-     * @property {module:model/ResponseMarkUseMultipleSchemaV60DataInner}
+     * The ResponseMarkUseMultipleSchemaDataInner model constructor.
+     * @property {module:model/ResponseMarkUseMultipleSchemaDataInner}
      */
-    ResponseMarkUseMultipleSchemaV60DataInner,
+    ResponseMarkUseMultipleSchemaDataInner,
 
     /**
-     * The ResponseMarkUseMultipleSchemaV60DataInnerUsedStore model constructor.
-     * @property {module:model/ResponseMarkUseMultipleSchemaV60DataInnerUsedStore}
+     * The ResponseMarkUseMultipleSchemaDataInnerConditions model constructor.
+     * @property {module:model/ResponseMarkUseMultipleSchemaDataInnerConditions}
      */
-    ResponseMarkUseMultipleSchemaV60DataInnerUsedStore,
+    ResponseMarkUseMultipleSchemaDataInnerConditions,
 
     /**
-     * The ResponseReservedSchemaV60 model constructor.
-     * @property {module:model/ResponseReservedSchemaV60}
+     * The ResponseMarkUseMultipleSchemaDataInnerRedemptions model constructor.
+     * @property {module:model/ResponseMarkUseMultipleSchemaDataInnerRedemptions}
      */
-    ResponseReservedSchemaV60,
+    ResponseMarkUseMultipleSchemaDataInnerRedemptions,
 
     /**
-     * The ResponseReservedSchemaV60DataInner model constructor.
-     * @property {module:model/ResponseReservedSchemaV60DataInner}
+     * The ResponseReservedSchema model constructor.
+     * @property {module:model/ResponseReservedSchema}
      */
-    ResponseReservedSchemaV60DataInner,
+    ResponseReservedSchema,
 
     /**
-     * The ResponseReservedSchemaV60UsedStore model constructor.
-     * @property {module:model/ResponseReservedSchemaV60UsedStore}
+     * The ResponseReservedSchemaDataInner model constructor.
+     * @property {module:model/ResponseReservedSchemaDataInner}
      */
-    ResponseReservedSchemaV60UsedStore,
+    ResponseReservedSchemaDataInner,
 
     /**
-     * The ResponseUnReservedSchemaV60 model constructor.
-     * @property {module:model/ResponseUnReservedSchemaV60}
+     * The ResponseReservedSchemaDataInnerRedemptions model constructor.
+     * @property {module:model/ResponseReservedSchemaDataInnerRedemptions}
      */
-    ResponseUnReservedSchemaV60,
+    ResponseReservedSchemaDataInnerRedemptions,
 
     /**
-    * The MerchantApiV60Api service constructor.
-    * @property {module:api/MerchantApiV60Api}
+     * The ResponseReservedSchemaUsedStore model constructor.
+     * @property {module:model/ResponseReservedSchemaUsedStore}
+     */
+    ResponseReservedSchemaUsedStore,
+
+    /**
+     * The ResponseUnReservedSchema model constructor.
+     * @property {module:model/ResponseUnReservedSchema}
+     */
+    ResponseUnReservedSchema,
+
+    /**
+     * The ResponseUnReservedSchemaDataInner model constructor.
+     * @property {module:model/ResponseUnReservedSchemaDataInner}
+     */
+    ResponseUnReservedSchemaDataInner,
+
+    /**
+    * The GotItMerchantApi service constructor.
+    * @property {module:api/GotItMerchantApi}
     */
-    MerchantApiV60Api
+    GotItMerchantApi
 };
