@@ -60,12 +60,6 @@
       //expect(instance).to.be();
     });
 
-    it('should have the property endDate (base name: "end_date")', function() {
-      // uncomment below and update the code to test the property endDate
-      //var instance = new MerchantApis.ResponseCheckMultipleSchemaDataInnerConditions();
-      //expect(instance).to.be();
-    });
-
     it('should have the property excludeSpecificDate (base name: "exclude_specific_date")', function() {
       // uncomment below and update the code to test the property excludeSpecificDate
       //var instance = new MerchantApis.ResponseCheckMultipleSchemaDataInnerConditions();

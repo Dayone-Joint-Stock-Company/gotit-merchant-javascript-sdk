@@ -51,9 +51,6 @@ class ResponseCheckMultipleSchemaDataInnerConditions {
             if (data.hasOwnProperty('start_date')) {
                 obj['start_date'] = ApiClient.convertToType(data['start_date'], 'String');
             }
-            if (data.hasOwnProperty('end_date')) {
-                obj['end_date'] = ApiClient.convertToType(data['end_date'], 'String');
-            }
             if (data.hasOwnProperty('exclude_specific_date')) {
                 obj['exclude_specific_date'] = ApiClient.convertToType(data['exclude_specific_date'], ['String']);
             }
@@ -76,10 +73,6 @@ class ResponseCheckMultipleSchemaDataInnerConditions {
         // ensure the json data is a string
         if (data['start_date'] && !(typeof data['start_date'] === 'string' || data['start_date'] instanceof String)) {
             throw new Error("Expected the field `start_date` to be a primitive type in the JSON string but got " + data['start_date']);
-        }
-        // ensure the json data is a string
-        if (data['end_date'] && !(typeof data['end_date'] === 'string' || data['end_date'] instanceof String)) {
-            throw new Error("Expected the field `end_date` to be a primitive type in the JSON string but got " + data['end_date']);
         }
         // ensure the json data is an array
         if (!Array.isArray(data['exclude_specific_date'])) {
@@ -107,12 +100,6 @@ class ResponseCheckMultipleSchemaDataInnerConditions {
  * @member {String} start_date
  */
 ResponseCheckMultipleSchemaDataInnerConditions.prototype['start_date'] = undefined;
-
-/**
- * Promo end date (YYYY-MM-DD)
- * @member {String} end_date
- */
-ResponseCheckMultipleSchemaDataInnerConditions.prototype['end_date'] = undefined;
 
 /**
  * Promo non-effective dates (YYYY-MM-DD)
