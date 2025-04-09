@@ -5,7 +5,7 @@ SDK Technical document for Merchant APIs
 #### git
 
 ```shell
-    npm install Dayone-Joint-Stock-Company/gotit-merchant-javascript-sdk --save
+npm install Dayone-Joint-Stock-Company/gotit-merchant-javascript-sdk --save
 ```
 
 Finally, you need to build the module:
@@ -109,7 +109,7 @@ api.checkMultiple(opts, callback);
 
 ## Documentation for API Endpoints
 
-All URIs are relative to *https://openapi-stg.gotit.vn*
+All URIs are relative to *https://openapi-stg.gotit.vn*. For production please change to *https://openapi.gotit.vn*
 
 Class | Method | HTTP request | Description
 ------------ | ------------- | ------------- | -------------
@@ -147,4 +147,3 @@ Class | Method | HTTP request | Description
 ## Documentation for Authorization
 
 Endpoints do not require authorization.
-
