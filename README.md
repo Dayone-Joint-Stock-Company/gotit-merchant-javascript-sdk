@@ -8,12 +8,6 @@ SDK Technical document for Merchant APIs
 npm install Dayone-Joint-Stock-Company/gotit-merchant-javascript-sdk --save
 ```
 
-Finally, you need to build the module:
-
-```shell
-npm run build
-```
-
 ##### Local development
 
 To use the library locally without publishing to a remote npm registry, first install the dependencies by changing into the directory containing `package.json` (and this README). Let's call this `SDK_DIR`. Then run:
