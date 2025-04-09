@@ -1,8 +1,7 @@
 {
-  "name": "merchant_apis",
-  "version": "6.0",
-  "description": "Technical document APIs for Merchant APIs",
-  "license": "Unlicense",
+  "name": "gotit-merchant-javascript-sdk",
+  "version": "1.0.0",
+  "description": "SDK Technical document for Merchant APIs",
   "main": "dist/index.js",
   "scripts": {
     "build": "babel src -d dist",
