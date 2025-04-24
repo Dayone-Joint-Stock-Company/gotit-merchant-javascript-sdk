@@ -53,6 +53,9 @@ class ResponseUnReservedSchemaDataInner {
             if (data.hasOwnProperty('value')) {
                 obj['value'] = ApiClient.convertToType(data['value'], 'Number');
             }
+            if (data.hasOwnProperty('product_id')) {
+                obj['product_id'] = ApiClient.convertToType(data['product_id'], 'Number');
+            }
             if (data.hasOwnProperty('voucher_type')) {
                 obj['voucher_type'] = ApiClient.convertToType(data['voucher_type'], 'String');
             }
@@ -94,6 +97,12 @@ ResponseUnReservedSchemaDataInner.prototype['code'] = undefined;
  * @member {Number} value
  */
 ResponseUnReservedSchemaDataInner.prototype['value'] = undefined;
+
+/**
+ * Product ID
+ * @member {Number} product_id
+ */
+ResponseUnReservedSchemaDataInner.prototype['product_id'] = undefined;
 
 /**
  * Voucher type, standard or conditional

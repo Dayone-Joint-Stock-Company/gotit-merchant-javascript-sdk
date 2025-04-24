@@ -66,6 +66,12 @@
       //expect(instance).to.be();
     });
 
+    it('should have the property productId (base name: "product_id")', function() {
+      // uncomment below and update the code to test the property productId
+      //var instance = new MerchantApis.ResponseCheckMultipleSchemaDataInner();
+      //expect(instance).to.be();
+    });
+
     it('should have the property state (base name: "state")', function() {
       // uncomment below and update the code to test the property state
       //var instance = new MerchantApis.ResponseCheckMultipleSchemaDataInner();

@@ -55,6 +55,9 @@ class ResponseCheckMultipleSchemaDataInner {
             if (data.hasOwnProperty('value')) {
                 obj['value'] = ApiClient.convertToType(data['value'], 'Number');
             }
+            if (data.hasOwnProperty('product_id')) {
+                obj['product_id'] = ApiClient.convertToType(data['product_id'], 'Number');
+            }
             if (data.hasOwnProperty('state')) {
                 obj['state'] = ApiClient.convertToType(data['state'], 'Number');
             }
@@ -127,6 +130,12 @@ ResponseCheckMultipleSchemaDataInner.prototype['code'] = undefined;
  * @member {Number} value
  */
 ResponseCheckMultipleSchemaDataInner.prototype['value'] = undefined;
+
+/**
+ * Product ID
+ * @member {Number} product_id
+ */
+ResponseCheckMultipleSchemaDataInner.prototype['product_id'] = undefined;
 
 /**
  * State of voucher

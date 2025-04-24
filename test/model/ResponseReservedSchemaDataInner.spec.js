@@ -72,6 +72,12 @@
       //expect(instance).to.be();
     });
 
+    it('should have the property productId (base name: "product_id")', function() {
+      // uncomment below and update the code to test the property productId
+      //var instance = new MerchantApis.ResponseReservedSchemaDataInner();
+      //expect(instance).to.be();
+    });
+
     it('should have the property voucherType (base name: "voucher_type")', function() {
       // uncomment below and update the code to test the property voucherType
       //var instance = new MerchantApis.ResponseReservedSchemaDataInner();
