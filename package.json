@@ -1,6 +1,6 @@
 {
   "name": "gotit-merchant-javascript-sdk",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "SDK Technical document for Merchant APIs",
   "main": "dist/index.js",
   "scripts": {
