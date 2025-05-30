@@ -128,7 +128,6 @@ Class | Method | HTTP request | Description
 - [GotItMerchantSDK.ResponseCheckMultipleSchemaDataInnerRedemptionsUsedStore](docs/ResponseCheckMultipleSchemaDataInnerRedemptionsUsedStore.md)
 - [GotItMerchantSDK.ResponseMarkUseMultipleSchema](docs/ResponseMarkUseMultipleSchema.md)
 - [GotItMerchantSDK.ResponseMarkUseMultipleSchemaDataInner](docs/ResponseMarkUseMultipleSchemaDataInner.md)
-- [GotItMerchantSDK.ResponseMarkUseMultipleSchemaDataInnerConditions](docs/ResponseMarkUseMultipleSchemaDataInnerConditions.md)
 - [GotItMerchantSDK.ResponseMarkUseMultipleSchemaDataInnerRedemptions](docs/ResponseMarkUseMultipleSchemaDataInnerRedemptions.md)
 - [GotItMerchantSDK.ResponseReservedSchema](docs/ResponseReservedSchema.md)
 - [GotItMerchantSDK.ResponseReservedSchemaDataInner](docs/ResponseReservedSchemaDataInner.md)
