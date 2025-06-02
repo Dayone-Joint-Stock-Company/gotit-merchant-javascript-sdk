@@ -57,6 +57,9 @@ class ResponseCheckMultipleSchemaDataInnerConditions {
             if (data.hasOwnProperty('exclude_recurring_day')) {
                 obj['exclude_recurring_day'] = ApiClient.convertToType(data['exclude_recurring_day'], ['String']);
             }
+            if (data.hasOwnProperty('order_value')) {
+                obj['order_value'] = ApiClient.convertToType(data['order_value'], 'Number');
+            }
             if (data.hasOwnProperty('redeemable_skus')) {
                 obj['redeemable_skus'] = ApiClient.convertToType(data['redeemable_skus'], ['String']);
             }
@@ -112,6 +115,12 @@ ResponseCheckMultipleSchemaDataInnerConditions.prototype['exclude_specific_date'
  * @member {Array.<String>} exclude_recurring_day
  */
 ResponseCheckMultipleSchemaDataInnerConditions.prototype['exclude_recurring_day'] = undefined;
+
+/**
+ * Order value of voucher type = conditional
+ * @member {Number} order_value
+ */
+ResponseCheckMultipleSchemaDataInnerConditions.prototype['order_value'] = undefined;
 
 /**
  * List of redeemable SKUs of the voucher code. For voucher type = conditional, bill number must contain at least 1 redeemable SKU of the voucher.

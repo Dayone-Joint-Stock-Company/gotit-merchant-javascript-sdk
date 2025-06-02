@@ -9,7 +9,7 @@ Name | Type | Description | Notes
 **state** | **Number** | State of voucher | [optional] 
 **productId** | **Number** | Product ID | [optional] 
 **voucherType** | **String** | Voucher type, standard or conditional | [optional] 
-**conditions** | [**ResponseMarkUseMultipleSchemaDataInnerConditions**](ResponseMarkUseMultipleSchemaDataInnerConditions.md) |  | [optional] 
+**conditions** | [**ResponseCheckMultipleSchemaDataInnerConditions**](ResponseCheckMultipleSchemaDataInnerConditions.md) |  | [optional] 
 **redemptions** | [**ResponseReservedSchemaDataInnerRedemptions**](ResponseReservedSchemaDataInnerRedemptions.md) |  | [optional] 
 
 

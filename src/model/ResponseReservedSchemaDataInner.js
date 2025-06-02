@@ -12,7 +12,7 @@
  */
 
 import ApiClient from '../ApiClient';
-import ResponseMarkUseMultipleSchemaDataInnerConditions from './ResponseMarkUseMultipleSchemaDataInnerConditions';
+import ResponseCheckMultipleSchemaDataInnerConditions from './ResponseCheckMultipleSchemaDataInnerConditions';
 import ResponseReservedSchemaDataInnerRedemptions from './ResponseReservedSchemaDataInnerRedemptions';
 
 /**
@@ -65,7 +65,7 @@ class ResponseReservedSchemaDataInner {
                 obj['voucher_type'] = ApiClient.convertToType(data['voucher_type'], 'String');
             }
             if (data.hasOwnProperty('conditions')) {
-                obj['conditions'] = ResponseMarkUseMultipleSchemaDataInnerConditions.constructFromObject(data['conditions']);
+                obj['conditions'] = ResponseCheckMultipleSchemaDataInnerConditions.constructFromObject(data['conditions']);
             }
             if (data.hasOwnProperty('redemptions')) {
                 obj['redemptions'] = ResponseReservedSchemaDataInnerRedemptions.constructFromObject(data['redemptions']);
@@ -90,7 +90,7 @@ class ResponseReservedSchemaDataInner {
         }
         // validate the optional field `conditions`
         if (data['conditions']) { // data not null
-          ResponseMarkUseMultipleSchemaDataInnerConditions.validateJSON(data['conditions']);
+          ResponseCheckMultipleSchemaDataInnerConditions.validateJSON(data['conditions']);
         }
         // validate the optional field `redemptions`
         if (data['redemptions']) { // data not null
@@ -136,7 +136,7 @@ ResponseReservedSchemaDataInner.prototype['product_id'] = undefined;
 ResponseReservedSchemaDataInner.prototype['voucher_type'] = undefined;
 
 /**
- * @member {module:model/ResponseMarkUseMultipleSchemaDataInnerConditions} conditions
+ * @member {module:model/ResponseCheckMultipleSchemaDataInnerConditions} conditions
  */
 ResponseReservedSchemaDataInner.prototype['conditions'] = undefined;
 
