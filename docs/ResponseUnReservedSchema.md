@@ -1,4 +1,4 @@
-# MerchantApis.ResponseUnReservedSchema
+# GotItMerchantSDK.ResponseUnReservedSchema
 
 ## Properties
 

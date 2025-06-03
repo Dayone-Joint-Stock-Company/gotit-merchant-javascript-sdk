@@ -18,7 +18,7 @@ import ResponseMarkUseMultipleSchemaDataInnerRedemptions from './ResponseMarkUse
 /**
  * The ResponseMarkUseMultipleSchemaDataInner model module.
  * @module model/ResponseMarkUseMultipleSchemaDataInner
- * @version 6.0
+ * @version 1.0.3
  */
 class ResponseMarkUseMultipleSchemaDataInner {
     /**

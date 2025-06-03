@@ -1,4 +1,4 @@
-# MerchantApis.ResponseCheckMultipleSchemaDataInnerRedemptionsUsedStore
+# GotItMerchantSDK.ResponseCheckMultipleSchemaDataInnerRedemptionsUsedStore
 
 ## Properties
 

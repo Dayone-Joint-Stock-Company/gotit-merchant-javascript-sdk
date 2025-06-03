@@ -1,4 +1,4 @@
-# MerchantApis.ResponseCheckMultipleSchemaDataInnerRedemptionsRedeemSkuCodesInner
+# GotItMerchantSDK.ResponseCheckMultipleSchemaDataInnerRedemptionsRedeemSkuCodesInner
 
 ## Properties
 

@@ -1,11 +1,11 @@
 const expect = require('expect.js');
-const MerchantApis = require('../../src/index');
+const GotItMerchantSDK = require('../../src/index');
 
 describe('MerchantApiApi', function () {
   let instance;
 
   beforeEach(function () {
-    instance = new MerchantApis.GotItMerchantApi();
+    instance = new GotItMerchantSDK.GotItMerchantApi();
   });
 
   /**
@@ -41,7 +41,7 @@ describe('MerchantApiApi', function () {
     checkMultipleDataProvider().forEach(testCase => {
       it(`should test checkMultiple with pin=${testCase[0]}`, function (done) {
         const [pin, codes, billNumber, skusInfo, expected] = testCase;
-        var body = new MerchantApis.RequestCheckMultipleBodySchema();
+        var body = new GotItMerchantSDK.RequestCheckMultipleBodySchema();
 
         body.pin = pin;
         body.codes = codes;
@@ -67,7 +67,7 @@ describe('MerchantApiApi', function () {
     reservedDataProvider().forEach(testCase => {
       it(`should test reserved with pin=${testCase[0]}`, function (done) {
         const [pin, codes, billNumber, skusInfo, expected] = testCase;
-        var body = new MerchantApis.RequestReservedBodySchema();
+        var body = new GotItMerchantSDK.RequestReservedBodySchema();
 
         body.pin = pin;
         body.codes = codes;
@@ -93,7 +93,7 @@ describe('MerchantApiApi', function () {
     unreservedDataProvider().forEach(testCase => {
       it(`should test unreserved with pin=${testCase[0]}`, function (done) {
         const [pin, codes, billNumber, skusInfo, expected] = testCase;
-        var body = new MerchantApis.RequestUnReservedBodySchema();
+        var body = new GotItMerchantSDK.RequestUnReservedBodySchema();
 
         body.pin = pin;
         body.codes = codes;
@@ -119,7 +119,7 @@ describe('MerchantApiApi', function () {
     useMultipleDataProvider().forEach(testCase => {
       it(`should test useMultiple with pin=${testCase[0]}`, function (done) {
         const [pin, codes, billNumber, skusInfo, expected] = testCase;
-        var body = new MerchantApis.RequestMarkUseMultipleBodySchema();
+        var body = new GotItMerchantSDK.RequestMarkUseMultipleBodySchema();
 
         body.pin = pin;
         body.codes = codes;

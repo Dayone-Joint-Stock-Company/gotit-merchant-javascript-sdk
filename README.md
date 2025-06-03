@@ -10,22 +10,22 @@ npm install Dayone-Joint-Stock-Company/gotit-merchant-javascript-sdk --save
 
 ##### Local development
 
-To use the library locally without publishing to a remote npm registry, first install the dependencies by changing into the directory containing `package.json` (and this README). Let's call this `SDK_DIR`. Then run:
+To use the library locally without publishing to a remote npm registry, first install the dependencies by changing into the directory containing `package.json` (and this README). Let's call this `JAVASCRIPT_CLIENT_DIR`. Then run:
 
 ```shell
 npm install
 ```
 
-Next, [link](https://docs.npmjs.com/cli/link) it globally in npm with the following, also from `SDK_DIR`:
+Next, [link](https://docs.npmjs.com/cli/link) it globally in npm with the following, also from `JAVASCRIPT_CLIENT_DIR`:
 
 ```shell
 npm link
 ```
 
-To use the link you just defined in your project, switch to the directory you want to use your merchant_apis from, and run:
+To use the link you just defined in your project, switch to the directory you want to use your gotit-merchant-sdk from, and run:
 
 ```shell
-npm link /path/to/<SDK_DIR>
+npm link /path/to/<JAVASCRIPT_CLIENT_DIR>
 ```
 
 Finally, you need to build the module:
@@ -69,7 +69,7 @@ module: {
 Please follow the [installation](#installation) instruction and execute the following JS code:
 
 ```javascript
-var GotItMerchantSDK = require('gotit-merchant-javascript-sdk');
+var GotItMerchantSDK = require('gotit-merchant-sdk');
 
 let apiClient = new GotItMerchantSDK.ApiClient("https://openapi-stg.gotit.vn");
 var api = new GotItMerchantSDK.GotItMerchantApi(apiClient)
@@ -115,26 +115,26 @@ Class | Method | HTTP request | Description
 
 ## Documentation for Models
 
-- [GotItMerchantSDK.RequestCheckMultipleBodySchema](docs/RequestCheckMultipleBodySchema.md)
-- [GotItMerchantSDK.RequestCheckMultipleBodySchemaSkusInfoInner](docs/RequestCheckMultipleBodySchemaSkusInfoInner.md)
-- [GotItMerchantSDK.RequestMarkUseMultipleBodySchema](docs/RequestMarkUseMultipleBodySchema.md)
-- [GotItMerchantSDK.RequestReservedBodySchema](docs/RequestReservedBodySchema.md)
-- [GotItMerchantSDK.RequestUnReservedBodySchema](docs/RequestUnReservedBodySchema.md)
-- [GotItMerchantSDK.ResponseCheckMultipleSchema](docs/ResponseCheckMultipleSchema.md)
-- [GotItMerchantSDK.ResponseCheckMultipleSchemaDataInner](docs/ResponseCheckMultipleSchemaDataInner.md)
-- [GotItMerchantSDK.ResponseCheckMultipleSchemaDataInnerConditions](docs/ResponseCheckMultipleSchemaDataInnerConditions.md)
-- [GotItMerchantSDK.ResponseCheckMultipleSchemaDataInnerRedemptions](docs/ResponseCheckMultipleSchemaDataInnerRedemptions.md)
-- [GotItMerchantSDK.ResponseCheckMultipleSchemaDataInnerRedemptionsRedeemSkuCodesInner](docs/ResponseCheckMultipleSchemaDataInnerRedemptionsRedeemSkuCodesInner.md)
-- [GotItMerchantSDK.ResponseCheckMultipleSchemaDataInnerRedemptionsUsedStore](docs/ResponseCheckMultipleSchemaDataInnerRedemptionsUsedStore.md)
-- [GotItMerchantSDK.ResponseMarkUseMultipleSchema](docs/ResponseMarkUseMultipleSchema.md)
-- [GotItMerchantSDK.ResponseMarkUseMultipleSchemaDataInner](docs/ResponseMarkUseMultipleSchemaDataInner.md)
-- [GotItMerchantSDK.ResponseMarkUseMultipleSchemaDataInnerRedemptions](docs/ResponseMarkUseMultipleSchemaDataInnerRedemptions.md)
-- [GotItMerchantSDK.ResponseReservedSchema](docs/ResponseReservedSchema.md)
-- [GotItMerchantSDK.ResponseReservedSchemaDataInner](docs/ResponseReservedSchemaDataInner.md)
-- [GotItMerchantSDK.ResponseReservedSchemaDataInnerRedemptions](docs/ResponseReservedSchemaDataInnerRedemptions.md)
-- [GotItMerchantSDK.ResponseReservedSchemaUsedStore](docs/ResponseReservedSchemaUsedStore.md)
-- [GotItMerchantSDK.ResponseUnReservedSchema](docs/ResponseUnReservedSchema.md)
-- [GotItMerchantSDK.ResponseUnReservedSchemaDataInner](docs/ResponseUnReservedSchemaDataInner.md)
+ - [GotItMerchantSDK.RequestCheckMultipleBodySchema](docs/RequestCheckMultipleBodySchema.md)
+ - [GotItMerchantSDK.RequestCheckMultipleBodySchemaSkusInfoInner](docs/RequestCheckMultipleBodySchemaSkusInfoInner.md)
+ - [GotItMerchantSDK.RequestMarkUseMultipleBodySchema](docs/RequestMarkUseMultipleBodySchema.md)
+ - [GotItMerchantSDK.RequestReservedBodySchema](docs/RequestReservedBodySchema.md)
+ - [GotItMerchantSDK.RequestUnReservedBodySchema](docs/RequestUnReservedBodySchema.md)
+ - [GotItMerchantSDK.ResponseCheckMultipleSchema](docs/ResponseCheckMultipleSchema.md)
+ - [GotItMerchantSDK.ResponseCheckMultipleSchemaDataInner](docs/ResponseCheckMultipleSchemaDataInner.md)
+ - [GotItMerchantSDK.ResponseCheckMultipleSchemaDataInnerConditions](docs/ResponseCheckMultipleSchemaDataInnerConditions.md)
+ - [GotItMerchantSDK.ResponseCheckMultipleSchemaDataInnerRedemptions](docs/ResponseCheckMultipleSchemaDataInnerRedemptions.md)
+ - [GotItMerchantSDK.ResponseCheckMultipleSchemaDataInnerRedemptionsRedeemSkuCodesInner](docs/ResponseCheckMultipleSchemaDataInnerRedemptionsRedeemSkuCodesInner.md)
+ - [GotItMerchantSDK.ResponseCheckMultipleSchemaDataInnerRedemptionsUsedStore](docs/ResponseCheckMultipleSchemaDataInnerRedemptionsUsedStore.md)
+ - [GotItMerchantSDK.ResponseMarkUseMultipleSchema](docs/ResponseMarkUseMultipleSchema.md)
+ - [GotItMerchantSDK.ResponseMarkUseMultipleSchemaDataInner](docs/ResponseMarkUseMultipleSchemaDataInner.md)
+ - [GotItMerchantSDK.ResponseMarkUseMultipleSchemaDataInnerRedemptions](docs/ResponseMarkUseMultipleSchemaDataInnerRedemptions.md)
+ - [GotItMerchantSDK.ResponseReservedSchema](docs/ResponseReservedSchema.md)
+ - [GotItMerchantSDK.ResponseReservedSchemaDataInner](docs/ResponseReservedSchemaDataInner.md)
+ - [GotItMerchantSDK.ResponseReservedSchemaDataInnerRedemptions](docs/ResponseReservedSchemaDataInnerRedemptions.md)
+ - [GotItMerchantSDK.ResponseReservedSchemaUsedStore](docs/ResponseReservedSchemaUsedStore.md)
+ - [GotItMerchantSDK.ResponseUnReservedSchema](docs/ResponseUnReservedSchema.md)
+ - [GotItMerchantSDK.ResponseUnReservedSchemaDataInner](docs/ResponseUnReservedSchemaDataInner.md)
 
 
 ## Documentation for Authorization

@@ -18,7 +18,7 @@ import ResponseCheckMultipleSchemaDataInnerRedemptionsUsedStore from './Response
 /**
  * The ResponseCheckMultipleSchemaDataInnerRedemptions model module.
  * @module model/ResponseCheckMultipleSchemaDataInnerRedemptions
- * @version 6.0
+ * @version 1.0.3
  */
 class ResponseCheckMultipleSchemaDataInnerRedemptions {
     /**

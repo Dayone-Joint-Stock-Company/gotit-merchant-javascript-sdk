@@ -18,7 +18,7 @@ import ResponseCheckMultipleSchemaDataInnerRedemptions from './ResponseCheckMult
 /**
  * The ResponseCheckMultipleSchemaDataInner model module.
  * @module model/ResponseCheckMultipleSchemaDataInner
- * @version 6.0
+ * @version 1.0.3
  */
 class ResponseCheckMultipleSchemaDataInner {
     /**

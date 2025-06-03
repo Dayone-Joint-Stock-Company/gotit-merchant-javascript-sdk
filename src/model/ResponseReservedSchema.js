@@ -18,7 +18,7 @@ import ResponseReservedSchemaUsedStore from './ResponseReservedSchemaUsedStore';
 /**
  * The ResponseReservedSchema model module.
  * @module model/ResponseReservedSchema
- * @version 6.0
+ * @version 1.0.3
  */
 class ResponseReservedSchema {
     /**

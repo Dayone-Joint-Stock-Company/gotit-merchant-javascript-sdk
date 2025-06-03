@@ -1,4 +1,4 @@
-# MerchantApis.ResponseCheckMultipleSchema
+# GotItMerchantSDK.ResponseCheckMultipleSchema
 
 ## Properties
 

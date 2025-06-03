@@ -16,7 +16,7 @@ import ApiClient from '../ApiClient';
 /**
  * The RequestUnReservedBodySchema model module.
  * @module model/RequestUnReservedBodySchema
- * @version 6.0
+ * @version 1.0.3
  */
 class RequestUnReservedBodySchema {
     /**

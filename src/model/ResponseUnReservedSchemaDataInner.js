@@ -16,7 +16,7 @@ import ApiClient from '../ApiClient';
 /**
  * The ResponseUnReservedSchemaDataInner model module.
  * @module model/ResponseUnReservedSchemaDataInner
- * @version 6.0
+ * @version 1.0.3
  */
 class ResponseUnReservedSchemaDataInner {
     /**

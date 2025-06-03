@@ -37,14 +37,14 @@ import GotItMerchantApi from './api/GotItMerchantApi';
 
 
 /**
-* Technical document APIs for Merchant APIs.<br>
+* SDK Technical document for Merchant APIs.<br>
 * The <code>index</code> module provides access to constructors for all the classes which comprise the public API.
 * <p>
 * An AMD (recommended!) or CommonJS application will generally do something equivalent to the following:
 * <pre>
-* var MerchantApis = require('index'); // See note below*.
-* var xxxSvc = new MerchantApis.XxxApi(); // Allocate the API class we're going to use.
-* var yyyModel = new MerchantApis.Yyy(); // Construct a model instance.
+* var GotItMerchantSDK = require('index'); // See note below*.
+* var xxxSvc = new GotItMerchantSDK.XxxApi(); // Allocate the API class we're going to use.
+* var yyyModel = new GotItMerchantSDK.Yyy(); // Construct a model instance.
 * yyyModel.someProperty = 'someValue';
 * ...
 * var zzz = xxxSvc.doSomething(yyyModel); // Invoke the service.
@@ -56,8 +56,8 @@ import GotItMerchantApi from './api/GotItMerchantApi';
 * <p>
 * A non-AMD browser application (discouraged) might do something like this:
 * <pre>
-* var xxxSvc = new MerchantApis.XxxApi(); // Allocate the API class we're going to use.
-* var yyy = new MerchantApis.Yyy(); // Construct a model instance.
+* var xxxSvc = new GotItMerchantSDK.XxxApi(); // Allocate the API class we're going to use.
+* var yyy = new GotItMerchantSDK.Yyy(); // Construct a model instance.
 * yyyModel.someProperty = 'someValue';
 * ...
 * var zzz = xxxSvc.doSomething(yyyModel); // Invoke the service.
@@ -65,7 +65,7 @@ import GotItMerchantApi from './api/GotItMerchantApi';
 * </pre>
 * </p>
 * @module index
-* @version 6.0
+* @version 1.0.3
 */
 export {
     /**
