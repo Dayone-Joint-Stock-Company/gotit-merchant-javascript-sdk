@@ -20,15 +20,15 @@
     factory(require('expect.js'), require(process.cwd()+'/src/index'));
   } else {
     // Browser globals (root is window)
-    factory(root.expect, root.MerchantApis);
+    factory(root.expect, root.GotItMerchantSDK);
   }
-}(this, function(expect, MerchantApis) {
+}(this, function(expect, GotItMerchantSDK) {
   'use strict';
 
   var instance;
 
   beforeEach(function() {
-    instance = new MerchantApis.ResponseMarkUseMultipleSchemaDataInner();
+    instance = new GotItMerchantSDK.ResponseMarkUseMultipleSchemaDataInner();
   });
 
   var getProperty = function(object, getter, property) {
@@ -50,49 +50,49 @@
   describe('ResponseMarkUseMultipleSchemaDataInner', function() {
     it('should create an instance of ResponseMarkUseMultipleSchemaDataInner', function() {
       // uncomment below and update the code to test ResponseMarkUseMultipleSchemaDataInner
-      //var instance = new MerchantApis.ResponseMarkUseMultipleSchemaDataInner();
-      //expect(instance).to.be.a(MerchantApis.ResponseMarkUseMultipleSchemaDataInner);
+      //var instance = new GotItMerchantSDK.ResponseMarkUseMultipleSchemaDataInner();
+      //expect(instance).to.be.a(GotItMerchantSDK.ResponseMarkUseMultipleSchemaDataInner);
     });
 
     it('should have the property code (base name: "code")', function() {
       // uncomment below and update the code to test the property code
-      //var instance = new MerchantApis.ResponseMarkUseMultipleSchemaDataInner();
+      //var instance = new GotItMerchantSDK.ResponseMarkUseMultipleSchemaDataInner();
       //expect(instance).to.be();
     });
 
     it('should have the property value (base name: "value")', function() {
       // uncomment below and update the code to test the property value
-      //var instance = new MerchantApis.ResponseMarkUseMultipleSchemaDataInner();
+      //var instance = new GotItMerchantSDK.ResponseMarkUseMultipleSchemaDataInner();
       //expect(instance).to.be();
     });
 
     it('should have the property productId (base name: "product_id")', function() {
       // uncomment below and update the code to test the property productId
-      //var instance = new MerchantApis.ResponseMarkUseMultipleSchemaDataInner();
+      //var instance = new GotItMerchantSDK.ResponseMarkUseMultipleSchemaDataInner();
       //expect(instance).to.be();
     });
 
     it('should have the property state (base name: "state")', function() {
       // uncomment below and update the code to test the property state
-      //var instance = new MerchantApis.ResponseMarkUseMultipleSchemaDataInner();
+      //var instance = new GotItMerchantSDK.ResponseMarkUseMultipleSchemaDataInner();
       //expect(instance).to.be();
     });
 
     it('should have the property voucherType (base name: "voucher_type")', function() {
       // uncomment below and update the code to test the property voucherType
-      //var instance = new MerchantApis.ResponseMarkUseMultipleSchemaDataInner();
+      //var instance = new GotItMerchantSDK.ResponseMarkUseMultipleSchemaDataInner();
       //expect(instance).to.be();
     });
 
     it('should have the property conditions (base name: "conditions")', function() {
       // uncomment below and update the code to test the property conditions
-      //var instance = new MerchantApis.ResponseMarkUseMultipleSchemaDataInner();
+      //var instance = new GotItMerchantSDK.ResponseMarkUseMultipleSchemaDataInner();
       //expect(instance).to.be();
     });
 
     it('should have the property redemptions (base name: "redemptions")', function() {
       // uncomment below and update the code to test the property redemptions
-      //var instance = new MerchantApis.ResponseMarkUseMultipleSchemaDataInner();
+      //var instance = new GotItMerchantSDK.ResponseMarkUseMultipleSchemaDataInner();
       //expect(instance).to.be();
     });
 

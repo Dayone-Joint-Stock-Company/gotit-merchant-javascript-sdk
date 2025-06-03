@@ -20,15 +20,15 @@
     factory(require('expect.js'), require(process.cwd()+'/src/index'));
   } else {
     // Browser globals (root is window)
-    factory(root.expect, root.MerchantApis);
+    factory(root.expect, root.GotItMerchantSDK);
   }
-}(this, function(expect, MerchantApis) {
+}(this, function(expect, GotItMerchantSDK) {
   'use strict';
 
   var instance;
 
   beforeEach(function() {
-    instance = new MerchantApis.ResponseUnReservedSchemaDataInner();
+    instance = new GotItMerchantSDK.ResponseUnReservedSchemaDataInner();
   });
 
   var getProperty = function(object, getter, property) {
@@ -50,31 +50,31 @@
   describe('ResponseUnReservedSchemaDataInner', function() {
     it('should create an instance of ResponseUnReservedSchemaDataInner', function() {
       // uncomment below and update the code to test ResponseUnReservedSchemaDataInner
-      //var instance = new MerchantApis.ResponseUnReservedSchemaDataInner();
-      //expect(instance).to.be.a(MerchantApis.ResponseUnReservedSchemaDataInner);
+      //var instance = new GotItMerchantSDK.ResponseUnReservedSchemaDataInner();
+      //expect(instance).to.be.a(GotItMerchantSDK.ResponseUnReservedSchemaDataInner);
     });
 
     it('should have the property code (base name: "code")', function() {
       // uncomment below and update the code to test the property code
-      //var instance = new MerchantApis.ResponseUnReservedSchemaDataInner();
+      //var instance = new GotItMerchantSDK.ResponseUnReservedSchemaDataInner();
       //expect(instance).to.be();
     });
 
     it('should have the property value (base name: "value")', function() {
       // uncomment below and update the code to test the property value
-      //var instance = new MerchantApis.ResponseUnReservedSchemaDataInner();
+      //var instance = new GotItMerchantSDK.ResponseUnReservedSchemaDataInner();
       //expect(instance).to.be();
     });
 
     it('should have the property productId (base name: "product_id")', function() {
       // uncomment below and update the code to test the property productId
-      //var instance = new MerchantApis.ResponseUnReservedSchemaDataInner();
+      //var instance = new GotItMerchantSDK.ResponseUnReservedSchemaDataInner();
       //expect(instance).to.be();
     });
 
     it('should have the property voucherType (base name: "voucher_type")', function() {
       // uncomment below and update the code to test the property voucherType
-      //var instance = new MerchantApis.ResponseUnReservedSchemaDataInner();
+      //var instance = new GotItMerchantSDK.ResponseUnReservedSchemaDataInner();
       //expect(instance).to.be();
     });
 

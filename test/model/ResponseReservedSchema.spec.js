@@ -20,15 +20,15 @@
     factory(require('expect.js'), require(process.cwd()+'/src/index'));
   } else {
     // Browser globals (root is window)
-    factory(root.expect, root.MerchantApis);
+    factory(root.expect, root.GotItMerchantSDK);
   }
-}(this, function(expect, MerchantApis) {
+}(this, function(expect, GotItMerchantSDK) {
   'use strict';
 
   var instance;
 
   beforeEach(function() {
-    instance = new MerchantApis.ResponseReservedSchema();
+    instance = new GotItMerchantSDK.ResponseReservedSchema();
   });
 
   var getProperty = function(object, getter, property) {
@@ -50,49 +50,49 @@
   describe('ResponseReservedSchema', function() {
     it('should create an instance of ResponseReservedSchema', function() {
       // uncomment below and update the code to test ResponseReservedSchema
-      //var instance = new MerchantApis.ResponseReservedSchema();
-      //expect(instance).to.be.a(MerchantApis.ResponseReservedSchema);
+      //var instance = new GotItMerchantSDK.ResponseReservedSchema();
+      //expect(instance).to.be.a(GotItMerchantSDK.ResponseReservedSchema);
     });
 
     it('should have the property success (base name: "success")', function() {
       // uncomment below and update the code to test the property success
-      //var instance = new MerchantApis.ResponseReservedSchema();
+      //var instance = new GotItMerchantSDK.ResponseReservedSchema();
       //expect(instance).to.be();
     });
 
     it('should have the property returnCode (base name: "return_code")', function() {
       // uncomment below and update the code to test the property returnCode
-      //var instance = new MerchantApis.ResponseReservedSchema();
+      //var instance = new GotItMerchantSDK.ResponseReservedSchema();
       //expect(instance).to.be();
     });
 
     it('should have the property messageEn (base name: "message_en")', function() {
       // uncomment below and update the code to test the property messageEn
-      //var instance = new MerchantApis.ResponseReservedSchema();
+      //var instance = new GotItMerchantSDK.ResponseReservedSchema();
       //expect(instance).to.be();
     });
 
     it('should have the property messageVi (base name: "message_vi")', function() {
       // uncomment below and update the code to test the property messageVi
-      //var instance = new MerchantApis.ResponseReservedSchema();
+      //var instance = new GotItMerchantSDK.ResponseReservedSchema();
       //expect(instance).to.be();
     });
 
     it('should have the property usedStore (base name: "used_store")', function() {
       // uncomment below and update the code to test the property usedStore
-      //var instance = new MerchantApis.ResponseReservedSchema();
+      //var instance = new GotItMerchantSDK.ResponseReservedSchema();
       //expect(instance).to.be();
     });
 
     it('should have the property billNumber (base name: "bill_number")', function() {
       // uncomment below and update the code to test the property billNumber
-      //var instance = new MerchantApis.ResponseReservedSchema();
+      //var instance = new GotItMerchantSDK.ResponseReservedSchema();
       //expect(instance).to.be();
     });
 
     it('should have the property data (base name: "data")', function() {
       // uncomment below and update the code to test the property data
-      //var instance = new MerchantApis.ResponseReservedSchema();
+      //var instance = new GotItMerchantSDK.ResponseReservedSchema();
       //expect(instance).to.be();
     });
 

@@ -20,15 +20,15 @@
     factory(require('expect.js'), require(process.cwd()+'/src/index'));
   } else {
     // Browser globals (root is window)
-    factory(root.expect, root.MerchantApis);
+    factory(root.expect, root.GotItMerchantSDK);
   }
-}(this, function(expect, MerchantApis) {
+}(this, function(expect, GotItMerchantSDK) {
   'use strict';
 
   var instance;
 
   beforeEach(function() {
-    instance = new MerchantApis.ResponseCheckMultipleSchema();
+    instance = new GotItMerchantSDK.ResponseCheckMultipleSchema();
   });
 
   var getProperty = function(object, getter, property) {
@@ -50,37 +50,37 @@
   describe('ResponseCheckMultipleSchema', function() {
     it('should create an instance of ResponseCheckMultipleSchema', function() {
       // uncomment below and update the code to test ResponseCheckMultipleSchema
-      //var instance = new MerchantApis.ResponseCheckMultipleSchema();
-      //expect(instance).to.be.a(MerchantApis.ResponseCheckMultipleSchema);
+      //var instance = new GotItMerchantSDK.ResponseCheckMultipleSchema();
+      //expect(instance).to.be.a(GotItMerchantSDK.ResponseCheckMultipleSchema);
     });
 
     it('should have the property success (base name: "success")', function() {
       // uncomment below and update the code to test the property success
-      //var instance = new MerchantApis.ResponseCheckMultipleSchema();
+      //var instance = new GotItMerchantSDK.ResponseCheckMultipleSchema();
       //expect(instance).to.be();
     });
 
     it('should have the property returnCode (base name: "return_code")', function() {
       // uncomment below and update the code to test the property returnCode
-      //var instance = new MerchantApis.ResponseCheckMultipleSchema();
+      //var instance = new GotItMerchantSDK.ResponseCheckMultipleSchema();
       //expect(instance).to.be();
     });
 
     it('should have the property messageEn (base name: "message_en")', function() {
       // uncomment below and update the code to test the property messageEn
-      //var instance = new MerchantApis.ResponseCheckMultipleSchema();
+      //var instance = new GotItMerchantSDK.ResponseCheckMultipleSchema();
       //expect(instance).to.be();
     });
 
     it('should have the property messageVi (base name: "message_vi")', function() {
       // uncomment below and update the code to test the property messageVi
-      //var instance = new MerchantApis.ResponseCheckMultipleSchema();
+      //var instance = new GotItMerchantSDK.ResponseCheckMultipleSchema();
       //expect(instance).to.be();
     });
 
     it('should have the property data (base name: "data")', function() {
       // uncomment below and update the code to test the property data
-      //var instance = new MerchantApis.ResponseCheckMultipleSchema();
+      //var instance = new GotItMerchantSDK.ResponseCheckMultipleSchema();
       //expect(instance).to.be();
     });
 

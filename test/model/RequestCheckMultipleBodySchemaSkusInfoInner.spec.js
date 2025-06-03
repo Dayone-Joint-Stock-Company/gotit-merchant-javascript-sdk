@@ -20,15 +20,15 @@
     factory(require('expect.js'), require(process.cwd()+'/src/index'));
   } else {
     // Browser globals (root is window)
-    factory(root.expect, root.MerchantApis);
+    factory(root.expect, root.GotItMerchantSDK);
   }
-}(this, function(expect, MerchantApis) {
+}(this, function(expect, GotItMerchantSDK) {
   'use strict';
 
   var instance;
 
   beforeEach(function() {
-    instance = new MerchantApis.RequestCheckMultipleBodySchemaSkusInfoInner();
+    instance = new GotItMerchantSDK.RequestCheckMultipleBodySchemaSkusInfoInner();
   });
 
   var getProperty = function(object, getter, property) {
@@ -50,25 +50,25 @@
   describe('RequestCheckMultipleBodySchemaSkusInfoInner', function() {
     it('should create an instance of RequestCheckMultipleBodySchemaSkusInfoInner', function() {
       // uncomment below and update the code to test RequestCheckMultipleBodySchemaSkusInfoInner
-      //var instance = new MerchantApis.RequestCheckMultipleBodySchemaSkusInfoInner();
-      //expect(instance).to.be.a(MerchantApis.RequestCheckMultipleBodySchemaSkusInfoInner);
+      //var instance = new GotItMerchantSDK.RequestCheckMultipleBodySchemaSkusInfoInner();
+      //expect(instance).to.be.a(GotItMerchantSDK.RequestCheckMultipleBodySchemaSkusInfoInner);
     });
 
     it('should have the property sku (base name: "sku")', function() {
       // uncomment below and update the code to test the property sku
-      //var instance = new MerchantApis.RequestCheckMultipleBodySchemaSkusInfoInner();
+      //var instance = new GotItMerchantSDK.RequestCheckMultipleBodySchemaSkusInfoInner();
       //expect(instance).to.be();
     });
 
     it('should have the property quantity (base name: "quantity")', function() {
       // uncomment below and update the code to test the property quantity
-      //var instance = new MerchantApis.RequestCheckMultipleBodySchemaSkusInfoInner();
+      //var instance = new GotItMerchantSDK.RequestCheckMultipleBodySchemaSkusInfoInner();
       //expect(instance).to.be();
     });
 
     it('should have the property price (base name: "price")', function() {
       // uncomment below and update the code to test the property price
-      //var instance = new MerchantApis.RequestCheckMultipleBodySchemaSkusInfoInner();
+      //var instance = new GotItMerchantSDK.RequestCheckMultipleBodySchemaSkusInfoInner();
       //expect(instance).to.be();
     });
 

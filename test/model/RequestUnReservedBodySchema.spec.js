@@ -20,15 +20,15 @@
     factory(require('expect.js'), require(process.cwd()+'/src/index'));
   } else {
     // Browser globals (root is window)
-    factory(root.expect, root.MerchantApis);
+    factory(root.expect, root.GotItMerchantSDK);
   }
-}(this, function(expect, MerchantApis) {
+}(this, function(expect, GotItMerchantSDK) {
   'use strict';
 
   var instance;
 
   beforeEach(function() {
-    instance = new MerchantApis.RequestUnReservedBodySchema();
+    instance = new GotItMerchantSDK.RequestUnReservedBodySchema();
   });
 
   var getProperty = function(object, getter, property) {
@@ -50,31 +50,31 @@
   describe('RequestUnReservedBodySchema', function() {
     it('should create an instance of RequestUnReservedBodySchema', function() {
       // uncomment below and update the code to test RequestUnReservedBodySchema
-      //var instance = new MerchantApis.RequestUnReservedBodySchema();
-      //expect(instance).to.be.a(MerchantApis.RequestUnReservedBodySchema);
+      //var instance = new GotItMerchantSDK.RequestUnReservedBodySchema();
+      //expect(instance).to.be.a(GotItMerchantSDK.RequestUnReservedBodySchema);
     });
 
     it('should have the property pin (base name: "pin")', function() {
       // uncomment below and update the code to test the property pin
-      //var instance = new MerchantApis.RequestUnReservedBodySchema();
+      //var instance = new GotItMerchantSDK.RequestUnReservedBodySchema();
       //expect(instance).to.be();
     });
 
     it('should have the property codes (base name: "codes")', function() {
       // uncomment below and update the code to test the property codes
-      //var instance = new MerchantApis.RequestUnReservedBodySchema();
+      //var instance = new GotItMerchantSDK.RequestUnReservedBodySchema();
       //expect(instance).to.be();
     });
 
     it('should have the property billNumber (base name: "bill_number")', function() {
       // uncomment below and update the code to test the property billNumber
-      //var instance = new MerchantApis.RequestUnReservedBodySchema();
+      //var instance = new GotItMerchantSDK.RequestUnReservedBodySchema();
       //expect(instance).to.be();
     });
 
     it('should have the property billCreatedAt (base name: "bill_created_at")', function() {
       // uncomment below and update the code to test the property billCreatedAt
-      //var instance = new MerchantApis.RequestUnReservedBodySchema();
+      //var instance = new GotItMerchantSDK.RequestUnReservedBodySchema();
       //expect(instance).to.be();
     });
 

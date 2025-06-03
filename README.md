@@ -34,6 +34,15 @@ Finally, you need to build the module:
 npm run build
 ```
 
+#### git
+
+If the library is hosted at a git repository, e.g.https://github.com/Dayone-Joint-Stock-Company/gotit-merchant-javascript-sdk
+then install it via:
+
+```shell
+    npm install Dayone-Joint-Stock-Company/gotit-merchant-javascript-sdk --save
+```
+
 ### For browser
 
 The library also works in the browser environment via npm and [browserify](http://browserify.org/). After following
