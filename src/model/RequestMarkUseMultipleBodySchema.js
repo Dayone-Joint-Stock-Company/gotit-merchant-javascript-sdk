@@ -17,7 +17,7 @@ import RequestCheckMultipleBodySchemaSkusInfoInner from './RequestCheckMultipleB
 /**
  * The RequestMarkUseMultipleBodySchema model module.
  * @module model/RequestMarkUseMultipleBodySchema
- * @version 1.0.3
+ * @version 1.0.2
  */
 class RequestMarkUseMultipleBodySchema {
     /**

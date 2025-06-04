@@ -16,7 +16,7 @@ import ApiClient from '../ApiClient';
 /**
  * The ResponseCheckMultipleSchemaDataInnerRedemptionsRedeemSkuCodesInner model module.
  * @module model/ResponseCheckMultipleSchemaDataInnerRedemptionsRedeemSkuCodesInner
- * @version 1.0.3
+ * @version 1.0.2
  */
 class ResponseCheckMultipleSchemaDataInnerRedemptionsRedeemSkuCodesInner {
     /**

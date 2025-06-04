@@ -16,7 +16,7 @@ import ApiClient from '../ApiClient';
 /**
  * The ResponseReservedSchemaUsedStore model module.
  * @module model/ResponseReservedSchemaUsedStore
- * @version 1.0.3
+ * @version 1.0.2
  */
 class ResponseReservedSchemaUsedStore {
     /**

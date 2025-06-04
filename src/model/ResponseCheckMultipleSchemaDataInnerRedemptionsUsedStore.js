@@ -16,7 +16,7 @@ import ApiClient from '../ApiClient';
 /**
  * The ResponseCheckMultipleSchemaDataInnerRedemptionsUsedStore model module.
  * @module model/ResponseCheckMultipleSchemaDataInnerRedemptionsUsedStore
- * @version 1.0.3
+ * @version 1.0.2
  */
 class ResponseCheckMultipleSchemaDataInnerRedemptionsUsedStore {
     /**
