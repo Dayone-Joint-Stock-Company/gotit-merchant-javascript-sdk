@@ -18,7 +18,7 @@ import ResponseUnReservedSchemaDataInner from './ResponseUnReservedSchemaDataInn
 /**
  * The ResponseUnReservedSchema model module.
  * @module model/ResponseUnReservedSchema
- * @version 1.0.3
+ * @version 1.0.2
  */
 class ResponseUnReservedSchema {
     /**

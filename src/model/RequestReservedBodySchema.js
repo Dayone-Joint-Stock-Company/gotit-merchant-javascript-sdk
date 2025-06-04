@@ -17,7 +17,7 @@ import RequestCheckMultipleBodySchemaSkusInfoInner from './RequestCheckMultipleB
 /**
  * The RequestReservedBodySchema model module.
  * @module model/RequestReservedBodySchema
- * @version 1.0.3
+ * @version 1.0.2
  */
 class RequestReservedBodySchema {
     /**

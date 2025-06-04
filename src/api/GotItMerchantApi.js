@@ -25,7 +25,7 @@ import ResponseUnReservedSchema from '../model/ResponseUnReservedSchema';
 /**
 * GotItMerchant service.
 * @module api/GotItMerchantApi
-* @version 1.0.3
+* @version 1.0.2
 */
 export default class GotItMerchantApi {
 

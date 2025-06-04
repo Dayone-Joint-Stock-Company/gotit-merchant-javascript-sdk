@@ -18,7 +18,7 @@ import ResponseReservedSchemaDataInnerRedemptions from './ResponseReservedSchema
 /**
  * The ResponseReservedSchemaDataInner model module.
  * @module model/ResponseReservedSchemaDataInner
- * @version 1.0.3
+ * @version 1.0.2
  */
 class ResponseReservedSchemaDataInner {
     /**

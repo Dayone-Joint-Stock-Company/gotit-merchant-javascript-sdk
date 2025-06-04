@@ -16,7 +16,7 @@ import ApiClient from '../ApiClient';
 /**
  * The RequestCheckMultipleBodySchemaSkusInfoInner model module.
  * @module model/RequestCheckMultipleBodySchemaSkusInfoInner
- * @version 1.0.3
+ * @version 1.0.2
  */
 class RequestCheckMultipleBodySchemaSkusInfoInner {
     /**
