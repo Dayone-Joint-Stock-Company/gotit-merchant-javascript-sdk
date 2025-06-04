@@ -1,4 +1,4 @@
-# MerchantApis.ResponseMarkUseMultipleSchemaDataInner
+# GotItMerchantSDK.ResponseMarkUseMultipleSchemaDataInner
 
 ## Properties
 

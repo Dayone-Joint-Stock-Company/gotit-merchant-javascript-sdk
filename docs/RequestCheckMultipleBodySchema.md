@@ -1,4 +1,4 @@
-# MerchantApis.RequestCheckMultipleBodySchema
+# GotItMerchantSDK.RequestCheckMultipleBodySchema
 
 ## Properties
 

@@ -1,4 +1,4 @@
-# MerchantApis.RequestMarkUseMultipleBodySchema
+# GotItMerchantSDK.RequestMarkUseMultipleBodySchema
 
 ## Properties
 

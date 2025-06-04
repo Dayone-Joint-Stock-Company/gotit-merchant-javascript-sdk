@@ -1,4 +1,4 @@
-# MerchantApis.GotItMerchantApi
+# GotItMerchantSDK.GotItMerchantApi
 
 All URIs are relative to *https://openapi-stg.gotit.vn*
 
@@ -22,11 +22,11 @@ Check multiple vouchers are valid or not
 ### Example
 
 ```javascript
-import MerchantApis from 'merchant_apis';
+import GotItMerchantSDK from 'gotit-merchant-sdk';
 
-let apiInstance = new MerchantApis.GotItMerchantApi();
+let apiInstance = new GotItMerchantSDK.GotItMerchantApi();
 let opts = {
-  'requestCheckMultipleBodySchema': new MerchantApis.RequestCheckMultipleBodySchema() // RequestCheckMultipleBodySchema | 
+  'requestCheckMultipleBodySchema': new GotItMerchantSDK.RequestCheckMultipleBodySchema() // RequestCheckMultipleBodySchema | 
 };
 apiInstance.checkMultiple(opts, (error, data, response) => {
   if (error) {
@@ -69,11 +69,11 @@ Reserved multiple vouchers for a fixed bill number.
 ### Example
 
 ```javascript
-import MerchantApis from 'merchant_apis';
+import GotItMerchantSDK from 'gotit-merchant-sdk';
 
-let apiInstance = new MerchantApis.GotItMerchantApi();
+let apiInstance = new GotItMerchantSDK.GotItMerchantApi();
 let opts = {
-  'requestReservedBodySchema': new MerchantApis.RequestReservedBodySchema() // RequestReservedBodySchema | 
+  'requestReservedBodySchema': new GotItMerchantSDK.RequestReservedBodySchema() // RequestReservedBodySchema | 
 };
 apiInstance.reserved(opts, (error, data, response) => {
   if (error) {
@@ -116,11 +116,11 @@ Reserved multiple vouchers for a fixed bill number.
 ### Example
 
 ```javascript
-import MerchantApis from 'merchant_apis';
+import GotItMerchantSDK from 'gotit-merchant-sdk';
 
-let apiInstance = new MerchantApis.GotItMerchantApi();
+let apiInstance = new GotItMerchantSDK.GotItMerchantApi();
 let opts = {
-  'requestUnReservedBodySchema': new MerchantApis.RequestUnReservedBodySchema() // RequestUnReservedBodySchema | 
+  'requestUnReservedBodySchema': new GotItMerchantSDK.RequestUnReservedBodySchema() // RequestUnReservedBodySchema | 
 };
 apiInstance.unreserved(opts, (error, data, response) => {
   if (error) {
@@ -163,11 +163,11 @@ Reserved multiple vouchers for a fixed bill number.
 ### Example
 
 ```javascript
-import MerchantApis from 'merchant_apis';
+import GotItMerchantSDK from 'gotit-merchant-sdk';
 
-let apiInstance = new MerchantApis.GotItMerchantApi();
+let apiInstance = new GotItMerchantSDK.GotItMerchantApi();
 let opts = {
-  'requestMarkUseMultipleBodySchema': new MerchantApis.RequestMarkUseMultipleBodySchema() // RequestMarkUseMultipleBodySchema | 
+  'requestMarkUseMultipleBodySchema': new GotItMerchantSDK.RequestMarkUseMultipleBodySchema() // RequestMarkUseMultipleBodySchema | 
 };
 apiInstance.useMultiple(opts, (error, data, response) => {
   if (error) {

@@ -20,15 +20,15 @@
     factory(require('expect.js'), require(process.cwd()+'/src/index'));
   } else {
     // Browser globals (root is window)
-    factory(root.expect, root.MerchantApis);
+    factory(root.expect, root.GotItMerchantSDK);
   }
-}(this, function(expect, MerchantApis) {
+}(this, function(expect, GotItMerchantSDK) {
   'use strict';
 
   var instance;
 
   beforeEach(function() {
-    instance = new MerchantApis.ResponseCheckMultipleSchemaDataInnerRedemptionsRedeemSkuCodesInner();
+    instance = new GotItMerchantSDK.ResponseCheckMultipleSchemaDataInnerRedemptionsRedeemSkuCodesInner();
   });
 
   var getProperty = function(object, getter, property) {
@@ -50,25 +50,25 @@
   describe('ResponseCheckMultipleSchemaDataInnerRedemptionsRedeemSkuCodesInner', function() {
     it('should create an instance of ResponseCheckMultipleSchemaDataInnerRedemptionsRedeemSkuCodesInner', function() {
       // uncomment below and update the code to test ResponseCheckMultipleSchemaDataInnerRedemptionsRedeemSkuCodesInner
-      //var instance = new MerchantApis.ResponseCheckMultipleSchemaDataInnerRedemptionsRedeemSkuCodesInner();
-      //expect(instance).to.be.a(MerchantApis.ResponseCheckMultipleSchemaDataInnerRedemptionsRedeemSkuCodesInner);
+      //var instance = new GotItMerchantSDK.ResponseCheckMultipleSchemaDataInnerRedemptionsRedeemSkuCodesInner();
+      //expect(instance).to.be.a(GotItMerchantSDK.ResponseCheckMultipleSchemaDataInnerRedemptionsRedeemSkuCodesInner);
     });
 
     it('should have the property sku (base name: "sku")', function() {
       // uncomment below and update the code to test the property sku
-      //var instance = new MerchantApis.ResponseCheckMultipleSchemaDataInnerRedemptionsRedeemSkuCodesInner();
+      //var instance = new GotItMerchantSDK.ResponseCheckMultipleSchemaDataInnerRedemptionsRedeemSkuCodesInner();
       //expect(instance).to.be();
     });
 
     it('should have the property quantity (base name: "quantity")', function() {
       // uncomment below and update the code to test the property quantity
-      //var instance = new MerchantApis.ResponseCheckMultipleSchemaDataInnerRedemptionsRedeemSkuCodesInner();
+      //var instance = new GotItMerchantSDK.ResponseCheckMultipleSchemaDataInnerRedemptionsRedeemSkuCodesInner();
       //expect(instance).to.be();
     });
 
     it('should have the property price (base name: "price")', function() {
       // uncomment below and update the code to test the property price
-      //var instance = new MerchantApis.ResponseCheckMultipleSchemaDataInnerRedemptionsRedeemSkuCodesInner();
+      //var instance = new GotItMerchantSDK.ResponseCheckMultipleSchemaDataInnerRedemptionsRedeemSkuCodesInner();
       //expect(instance).to.be();
     });
 

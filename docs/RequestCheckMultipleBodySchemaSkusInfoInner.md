@@ -1,4 +1,4 @@
-# MerchantApis.RequestCheckMultipleBodySchemaSkusInfoInner
+# GotItMerchantSDK.RequestCheckMultipleBodySchemaSkusInfoInner
 
 ## Properties
 

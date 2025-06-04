@@ -20,15 +20,15 @@
     factory(require('expect.js'), require(process.cwd()+'/src/index'));
   } else {
     // Browser globals (root is window)
-    factory(root.expect, root.MerchantApis);
+    factory(root.expect, root.GotItMerchantSDK);
   }
-}(this, function(expect, MerchantApis) {
+}(this, function(expect, GotItMerchantSDK) {
   'use strict';
 
   var instance;
 
   beforeEach(function() {
-    instance = new MerchantApis.ResponseReservedSchemaDataInnerRedemptions();
+    instance = new GotItMerchantSDK.ResponseReservedSchemaDataInnerRedemptions();
   });
 
   var getProperty = function(object, getter, property) {
@@ -50,19 +50,19 @@
   describe('ResponseReservedSchemaDataInnerRedemptions', function() {
     it('should create an instance of ResponseReservedSchemaDataInnerRedemptions', function() {
       // uncomment below and update the code to test ResponseReservedSchemaDataInnerRedemptions
-      //var instance = new MerchantApis.ResponseReservedSchemaDataInnerRedemptions();
-      //expect(instance).to.be.a(MerchantApis.ResponseReservedSchemaDataInnerRedemptions);
+      //var instance = new GotItMerchantSDK.ResponseReservedSchemaDataInnerRedemptions();
+      //expect(instance).to.be.a(GotItMerchantSDK.ResponseReservedSchemaDataInnerRedemptions);
     });
 
     it('should have the property redeemSkuCodes (base name: "redeem_sku_codes")', function() {
       // uncomment below and update the code to test the property redeemSkuCodes
-      //var instance = new MerchantApis.ResponseReservedSchemaDataInnerRedemptions();
+      //var instance = new GotItMerchantSDK.ResponseReservedSchemaDataInnerRedemptions();
       //expect(instance).to.be();
     });
 
     it('should have the property redemptionValue (base name: "redemption_value")', function() {
       // uncomment below and update the code to test the property redemptionValue
-      //var instance = new MerchantApis.ResponseReservedSchemaDataInnerRedemptions();
+      //var instance = new GotItMerchantSDK.ResponseReservedSchemaDataInnerRedemptions();
       //expect(instance).to.be();
     });
 

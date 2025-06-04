@@ -1,4 +1,4 @@
-# MerchantApis.RequestUnReservedBodySchema
+# GotItMerchantSDK.RequestUnReservedBodySchema
 
 ## Properties
 

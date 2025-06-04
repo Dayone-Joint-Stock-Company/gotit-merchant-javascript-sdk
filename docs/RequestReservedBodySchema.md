@@ -1,4 +1,4 @@
-# MerchantApis.RequestReservedBodySchema
+# GotItMerchantSDK.RequestReservedBodySchema
 
 ## Properties
 

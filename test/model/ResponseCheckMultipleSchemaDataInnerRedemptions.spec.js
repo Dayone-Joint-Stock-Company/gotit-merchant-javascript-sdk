@@ -20,15 +20,15 @@
     factory(require('expect.js'), require(process.cwd()+'/src/index'));
   } else {
     // Browser globals (root is window)
-    factory(root.expect, root.MerchantApis);
+    factory(root.expect, root.GotItMerchantSDK);
   }
-}(this, function(expect, MerchantApis) {
+}(this, function(expect, GotItMerchantSDK) {
   'use strict';
 
   var instance;
 
   beforeEach(function() {
-    instance = new MerchantApis.ResponseCheckMultipleSchemaDataInnerRedemptions();
+    instance = new GotItMerchantSDK.ResponseCheckMultipleSchemaDataInnerRedemptions();
   });
 
   var getProperty = function(object, getter, property) {
@@ -50,37 +50,37 @@
   describe('ResponseCheckMultipleSchemaDataInnerRedemptions', function() {
     it('should create an instance of ResponseCheckMultipleSchemaDataInnerRedemptions', function() {
       // uncomment below and update the code to test ResponseCheckMultipleSchemaDataInnerRedemptions
-      //var instance = new MerchantApis.ResponseCheckMultipleSchemaDataInnerRedemptions();
-      //expect(instance).to.be.a(MerchantApis.ResponseCheckMultipleSchemaDataInnerRedemptions);
+      //var instance = new GotItMerchantSDK.ResponseCheckMultipleSchemaDataInnerRedemptions();
+      //expect(instance).to.be.a(GotItMerchantSDK.ResponseCheckMultipleSchemaDataInnerRedemptions);
     });
 
     it('should have the property redeemSkuCodes (base name: "redeem_sku_codes")', function() {
       // uncomment below and update the code to test the property redeemSkuCodes
-      //var instance = new MerchantApis.ResponseCheckMultipleSchemaDataInnerRedemptions();
+      //var instance = new GotItMerchantSDK.ResponseCheckMultipleSchemaDataInnerRedemptions();
       //expect(instance).to.be();
     });
 
     it('should have the property redemptionValue (base name: "redemption_value")', function() {
       // uncomment below and update the code to test the property redemptionValue
-      //var instance = new MerchantApis.ResponseCheckMultipleSchemaDataInnerRedemptions();
+      //var instance = new GotItMerchantSDK.ResponseCheckMultipleSchemaDataInnerRedemptions();
       //expect(instance).to.be();
     });
 
     it('should have the property usedStore (base name: "used_store")', function() {
       // uncomment below and update the code to test the property usedStore
-      //var instance = new MerchantApis.ResponseCheckMultipleSchemaDataInnerRedemptions();
+      //var instance = new GotItMerchantSDK.ResponseCheckMultipleSchemaDataInnerRedemptions();
       //expect(instance).to.be();
     });
 
     it('should have the property usedDate (base name: "used_date")', function() {
       // uncomment below and update the code to test the property usedDate
-      //var instance = new MerchantApis.ResponseCheckMultipleSchemaDataInnerRedemptions();
+      //var instance = new GotItMerchantSDK.ResponseCheckMultipleSchemaDataInnerRedemptions();
       //expect(instance).to.be();
     });
 
     it('should have the property billNumber (base name: "bill_number")', function() {
       // uncomment below and update the code to test the property billNumber
-      //var instance = new MerchantApis.ResponseCheckMultipleSchemaDataInnerRedemptions();
+      //var instance = new GotItMerchantSDK.ResponseCheckMultipleSchemaDataInnerRedemptions();
       //expect(instance).to.be();
     });
 

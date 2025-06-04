@@ -20,15 +20,15 @@
     factory(require('expect.js'), require(process.cwd()+'/src/index'));
   } else {
     // Browser globals (root is window)
-    factory(root.expect, root.MerchantApis);
+    factory(root.expect, root.GotItMerchantSDK);
   }
-}(this, function(expect, MerchantApis) {
+}(this, function(expect, GotItMerchantSDK) {
   'use strict';
 
   var instance;
 
   beforeEach(function() {
-    instance = new MerchantApis.ResponseCheckMultipleSchemaDataInnerConditions();
+    instance = new GotItMerchantSDK.ResponseCheckMultipleSchemaDataInnerConditions();
   });
 
   var getProperty = function(object, getter, property) {
@@ -50,31 +50,37 @@
   describe('ResponseCheckMultipleSchemaDataInnerConditions', function() {
     it('should create an instance of ResponseCheckMultipleSchemaDataInnerConditions', function() {
       // uncomment below and update the code to test ResponseCheckMultipleSchemaDataInnerConditions
-      //var instance = new MerchantApis.ResponseCheckMultipleSchemaDataInnerConditions();
-      //expect(instance).to.be.a(MerchantApis.ResponseCheckMultipleSchemaDataInnerConditions);
+      //var instance = new GotItMerchantSDK.ResponseCheckMultipleSchemaDataInnerConditions();
+      //expect(instance).to.be.a(GotItMerchantSDK.ResponseCheckMultipleSchemaDataInnerConditions);
     });
 
     it('should have the property startDate (base name: "start_date")', function() {
       // uncomment below and update the code to test the property startDate
-      //var instance = new MerchantApis.ResponseCheckMultipleSchemaDataInnerConditions();
+      //var instance = new GotItMerchantSDK.ResponseCheckMultipleSchemaDataInnerConditions();
       //expect(instance).to.be();
     });
 
     it('should have the property excludeSpecificDate (base name: "exclude_specific_date")', function() {
       // uncomment below and update the code to test the property excludeSpecificDate
-      //var instance = new MerchantApis.ResponseCheckMultipleSchemaDataInnerConditions();
+      //var instance = new GotItMerchantSDK.ResponseCheckMultipleSchemaDataInnerConditions();
       //expect(instance).to.be();
     });
 
     it('should have the property excludeRecurringDay (base name: "exclude_recurring_day")', function() {
       // uncomment below and update the code to test the property excludeRecurringDay
-      //var instance = new MerchantApis.ResponseCheckMultipleSchemaDataInnerConditions();
+      //var instance = new GotItMerchantSDK.ResponseCheckMultipleSchemaDataInnerConditions();
+      //expect(instance).to.be();
+    });
+
+    it('should have the property orderValue (base name: "order_value")', function() {
+      // uncomment below and update the code to test the property orderValue
+      //var instance = new GotItMerchantSDK.ResponseCheckMultipleSchemaDataInnerConditions();
       //expect(instance).to.be();
     });
 
     it('should have the property redeemableSkus (base name: "redeemable_skus")', function() {
       // uncomment below and update the code to test the property redeemableSkus
-      //var instance = new MerchantApis.ResponseCheckMultipleSchemaDataInnerConditions();
+      //var instance = new GotItMerchantSDK.ResponseCheckMultipleSchemaDataInnerConditions();
       //expect(instance).to.be();
     });
 

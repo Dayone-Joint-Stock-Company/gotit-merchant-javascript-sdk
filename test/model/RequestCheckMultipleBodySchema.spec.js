@@ -20,15 +20,15 @@
     factory(require('expect.js'), require(process.cwd()+'/src/index'));
   } else {
     // Browser globals (root is window)
-    factory(root.expect, root.MerchantApis);
+    factory(root.expect, root.GotItMerchantSDK);
   }
-}(this, function(expect, MerchantApis) {
+}(this, function(expect, GotItMerchantSDK) {
   'use strict';
 
   var instance;
 
   beforeEach(function() {
-    instance = new MerchantApis.RequestCheckMultipleBodySchema();
+    instance = new GotItMerchantSDK.RequestCheckMultipleBodySchema();
   });
 
   var getProperty = function(object, getter, property) {
@@ -50,43 +50,43 @@
   describe('RequestCheckMultipleBodySchema', function() {
     it('should create an instance of RequestCheckMultipleBodySchema', function() {
       // uncomment below and update the code to test RequestCheckMultipleBodySchema
-      //var instance = new MerchantApis.RequestCheckMultipleBodySchema();
-      //expect(instance).to.be.a(MerchantApis.RequestCheckMultipleBodySchema);
+      //var instance = new GotItMerchantSDK.RequestCheckMultipleBodySchema();
+      //expect(instance).to.be.a(GotItMerchantSDK.RequestCheckMultipleBodySchema);
     });
 
     it('should have the property pin (base name: "pin")', function() {
       // uncomment below and update the code to test the property pin
-      //var instance = new MerchantApis.RequestCheckMultipleBodySchema();
+      //var instance = new GotItMerchantSDK.RequestCheckMultipleBodySchema();
       //expect(instance).to.be();
     });
 
     it('should have the property codes (base name: "codes")', function() {
       // uncomment below and update the code to test the property codes
-      //var instance = new MerchantApis.RequestCheckMultipleBodySchema();
+      //var instance = new GotItMerchantSDK.RequestCheckMultipleBodySchema();
       //expect(instance).to.be();
     });
 
     it('should have the property billNumber (base name: "bill_number")', function() {
       // uncomment below and update the code to test the property billNumber
-      //var instance = new MerchantApis.RequestCheckMultipleBodySchema();
+      //var instance = new GotItMerchantSDK.RequestCheckMultipleBodySchema();
       //expect(instance).to.be();
     });
 
     it('should have the property totalBill (base name: "total_bill")', function() {
       // uncomment below and update the code to test the property totalBill
-      //var instance = new MerchantApis.RequestCheckMultipleBodySchema();
+      //var instance = new GotItMerchantSDK.RequestCheckMultipleBodySchema();
       //expect(instance).to.be();
     });
 
     it('should have the property skipReservedWhenMarkUsed (base name: "skip_reserved_when_mark_used")', function() {
       // uncomment below and update the code to test the property skipReservedWhenMarkUsed
-      //var instance = new MerchantApis.RequestCheckMultipleBodySchema();
+      //var instance = new GotItMerchantSDK.RequestCheckMultipleBodySchema();
       //expect(instance).to.be();
     });
 
     it('should have the property skusInfo (base name: "skus_info")', function() {
       // uncomment below and update the code to test the property skusInfo
-      //var instance = new MerchantApis.RequestCheckMultipleBodySchema();
+      //var instance = new GotItMerchantSDK.RequestCheckMultipleBodySchema();
       //expect(instance).to.be();
     });
 

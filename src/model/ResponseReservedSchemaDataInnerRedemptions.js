@@ -17,7 +17,7 @@ import ResponseCheckMultipleSchemaDataInnerRedemptionsRedeemSkuCodesInner from '
 /**
  * The ResponseReservedSchemaDataInnerRedemptions model module.
  * @module model/ResponseReservedSchemaDataInnerRedemptions
- * @version 6.0
+ * @version 1.0.3
  */
 class ResponseReservedSchemaDataInnerRedemptions {
     /**

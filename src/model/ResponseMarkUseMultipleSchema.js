@@ -17,7 +17,7 @@ import ResponseMarkUseMultipleSchemaDataInner from './ResponseMarkUseMultipleSch
 /**
  * The ResponseMarkUseMultipleSchema model module.
  * @module model/ResponseMarkUseMultipleSchema
- * @version 6.0
+ * @version 1.0.3
  */
 class ResponseMarkUseMultipleSchema {
     /**

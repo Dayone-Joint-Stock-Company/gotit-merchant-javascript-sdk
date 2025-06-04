@@ -20,15 +20,15 @@
     factory(require('expect.js'), require(process.cwd()+'/src/index'));
   } else {
     // Browser globals (root is window)
-    factory(root.expect, root.MerchantApis);
+    factory(root.expect, root.GotItMerchantSDK);
   }
-}(this, function(expect, MerchantApis) {
+}(this, function(expect, GotItMerchantSDK) {
   'use strict';
 
   var instance;
 
   beforeEach(function() {
-    instance = new MerchantApis.ResponseReservedSchemaUsedStore();
+    instance = new GotItMerchantSDK.ResponseReservedSchemaUsedStore();
   });
 
   var getProperty = function(object, getter, property) {
@@ -50,19 +50,19 @@
   describe('ResponseReservedSchemaUsedStore', function() {
     it('should create an instance of ResponseReservedSchemaUsedStore', function() {
       // uncomment below and update the code to test ResponseReservedSchemaUsedStore
-      //var instance = new MerchantApis.ResponseReservedSchemaUsedStore();
-      //expect(instance).to.be.a(MerchantApis.ResponseReservedSchemaUsedStore);
+      //var instance = new GotItMerchantSDK.ResponseReservedSchemaUsedStore();
+      //expect(instance).to.be.a(GotItMerchantSDK.ResponseReservedSchemaUsedStore);
     });
 
     it('should have the property nameVi (base name: "name_vi")', function() {
       // uncomment below and update the code to test the property nameVi
-      //var instance = new MerchantApis.ResponseReservedSchemaUsedStore();
+      //var instance = new GotItMerchantSDK.ResponseReservedSchemaUsedStore();
       //expect(instance).to.be();
     });
 
     it('should have the property nameEn (base name: "name_en")', function() {
       // uncomment below and update the code to test the property nameEn
-      //var instance = new MerchantApis.ResponseReservedSchemaUsedStore();
+      //var instance = new GotItMerchantSDK.ResponseReservedSchemaUsedStore();
       //expect(instance).to.be();
     });
 

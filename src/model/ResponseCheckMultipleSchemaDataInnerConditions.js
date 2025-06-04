@@ -16,7 +16,7 @@ import ApiClient from '../ApiClient';
 /**
  * The ResponseCheckMultipleSchemaDataInnerConditions model module.
  * @module model/ResponseCheckMultipleSchemaDataInnerConditions
- * @version 6.0
+ * @version 1.0.3
  */
 class ResponseCheckMultipleSchemaDataInnerConditions {
     /**

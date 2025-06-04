@@ -1,4 +1,4 @@
-# MerchantApis.ResponseReservedSchema
+# GotItMerchantSDK.ResponseReservedSchema
 
 ## Properties
 

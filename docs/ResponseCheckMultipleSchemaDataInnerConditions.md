@@ -1,4 +1,4 @@
-# MerchantApis.ResponseCheckMultipleSchemaDataInnerConditions
+# GotItMerchantSDK.ResponseCheckMultipleSchemaDataInnerConditions
 
 ## Properties
 

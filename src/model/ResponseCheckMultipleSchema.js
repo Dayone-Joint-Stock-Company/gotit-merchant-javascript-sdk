@@ -17,7 +17,7 @@ import ResponseCheckMultipleSchemaDataInner from './ResponseCheckMultipleSchemaD
 /**
  * The ResponseCheckMultipleSchema model module.
  * @module model/ResponseCheckMultipleSchema
- * @version 6.0
+ * @version 1.0.3
  */
 class ResponseCheckMultipleSchema {
     /**
